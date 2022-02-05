@@ -133,7 +133,7 @@ header label {
   right: 0;
   width: 50%;
   height: 100%;
-  background-image: url(../images/header-shape-1.svg);
+  background-image: url(/images/header-shape-1.svg);
   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -276,7 +276,7 @@ header label {
 
 /* end feature */
 .about {
-  background: url(../images/about-bg.svg) no-repeat;
+  background: url(/images/about-bg.svg) no-repeat;
   background-size: cover;
   background-position: center;
   padding-bottom: 3rem;
@@ -319,7 +319,7 @@ header label {
 .newsletter {
   text-align: center;
   padding: 5rem 1rem;
-  background: url(../images/subscribe-bg.svg) no-repeat;
+  background: url(/images/subscribe-bg.svg) no-repeat;
   background-size: cover;
   background-position: center;
 }
