@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>LifeCounterApp</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./style.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#8abdf6",
+              "primary-500": "#c4defa",
+              secondary: "f6c38a",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <a href="#" class="logo">
+        <img class="rounded-full h-20 w-20" src="images/sample.jpg" alt=""
+      /></a>
+
+      <input type="checkbox" id="menu-bar" />
+      <label for="menu-bar" class="fas fa-bars"></label>
+
+      <nav class="navbar">
+        <a href="#home">accueil</a>
+        <a href="#features">fonctionnalitées</a>
+        <a href="#about">à propos</a>
+        <!-- <a href="#review">avis</a> -->
+        <a href="#pricing">tarif</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>best mobile app <span>showcase</span></h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          suscipit porro nam libero natus error consequatur sed repudiandae eos
+          quo?
+        </p>
+        <a href="#" class="btn">download now</a>
+      </div>
+
+      <div class="image">
+        <img src="images/home-img.png" alt="" />
+      </div>
+    </section>
+    <div class="shape-container">
+      <div class="header-shape-1"></div>
+      <div class="header-shape-2">
+        <img src="images/header-shape-2.svg" alt="" />
+      </div>
+    </div>
+
+    <!-- home section ends -->
+
+    <!-- features section starts  -->
+
+    <section class="features feature-section" id="features">
+      <h1 class="heading">app features</h1>
+
+      <div class="box-container">
+        <div class="box single-feature">
+          <div class="icon color-1">
+            <i class="fas fa-hand-pointer"></i>
+          </div>
+          <h3>Easy To Use</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
+            minus recusandae autem, repellendus fugit quaerat provident
+            voluptatum non officiis ratione.
+          </p>
+        </div>
+
+        <div class="box single-feature">
+          <div class="icon color-2">
+            <i class="fas fa-hand-holding-usd"></i>
+          </div>
+          <h3>Save Your Mony</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
+            minus recusandae autem, repellendus fugit quaerat provident
+            voluptatum non officiis ratione.
+          </p>
+        </div>
+
+        <div class="box single-feature">
+          <div class="icon color-3">
+            <i class="fas fa-stethoscope"></i>
+          </div>
+          <h3>Fully Responsive</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
+            minus recusandae autem, repellendus fugit quaerat provident
+            voluptatum non officiis ratione.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- features section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading">about the app</h1>
+
+      <div class="column">
+        <div class="image">
+          <img src="images/about-img.png" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>Easy And Perfect Solution For Your Business App</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+            placeat deserunt saepe repudiandae veniam soluta minima dolor hic
+            aperiam iure.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Laudantium, quaerat. Dolorem ratione saepe magni quo inventore porro
+            ab voluptates eos, nam eius provident accusantium, quia similique
+            est, repellendus et reiciendis.
+          </p>
+          <div class="buttons">
+            <a href="#" class="btn"> <i class="fab fa-apple"></i> app store </a>
+            <a href="#" class="btn">
+              <i class="fab fa-google-play"></i> google-play
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- newsletter  -->
+
+    <!-- <div class="newsletter">
+      <h3>Subscribe For New Features</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sed
+        aliquam quibusdam neque magni magnam est laborum doloribus, facere
+        dolores.
+      </p>
+      <form action="">
+        <input type="email" placeholder="enter your email" />
+        <input type="submit" value="Subscribe" />
+      </form>
+    </div> -->
+
+    <!-- review section starts  -->
+
+    <!-- <section class="review" id="review">
+      <h1 class="heading">people's review</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-quote-right"></i>
+          <div class="user">
+            <img src="images/pic1.png" alt="" />
+            <h3>john deo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="comment">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+              et, perspiciatis nisi tempore aspernatur accusantium sed
+              distinctio facilis aperiam laborum autem earum repellat, commodi
+              eum. Ullam cupiditate expedita officiis obcaecati?
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-quote-right"></i>
+          <div class="user">
+            <img src="images/pic2.png" alt="" />
+            <h3>john deo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="comment">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+              et, perspiciatis nisi tempore aspernatur accusantium sed
+              distinctio facilis aperiam laborum autem earum repellat, commodi
+              eum. Ullam cupiditate expedita officiis obcaecati?
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-quote-right"></i>
+          <div class="user">
+            <img src="images/pic3.png" alt="" />
+            <h3>john deo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="comment">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+              et, perspiciatis nisi tempore aspernatur accusantium sed
+              distinctio facilis aperiam laborum autem earum repellat, commodi
+              eum. Ullam cupiditate expedita officiis obcaecati?
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- review section ends -->
+
+    <!-- pricing section starts  -->
+
+    <section class="pricing" id="pricing">
+      <h1 class="heading">Our Pricing Plans</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <h3 class="title">premium</h3>
+          <div class="price">$25<span>/monthly</span></div>
+          <ul>
+            <li><i class="fas fa-check"></i> 1000+ downloads</li>
+            <li><i class="fas fa-check"></i> No transaction fees</li>
+            <li><i class="fas fa-check"></i> unlimited storage</li>
+            <li><i class="fas fa-check"></i> 5 downloads</li>
+          </ul>
+          <a href="#" class="btn">check out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- pricing section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <div class="image">
+        <img src="images/faq-img.svg" alt="" />
+      </div>
+
+      <form
+        action="mailto:uhue.contact@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <h1 class="heading">contact us</h1>
+
+        <div class="inputBox">
+          <input type="text" required name="name" />
+          <label>name</label>
+        </div>
+
+        <div class="inputBox">
+          <input type="email" required name="mail" />
+          <label>email</label>
+        </div>
+
+        <div class="inputBox">
+          <textarea
+            required
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            name="message"
+          ></textarea>
+          <label>message</label>
+        </div>
+
+        <input type="submit" class="btn text-primary" value="send message" />
+      </form>
+    </section>
+
+    <!-- contact section edns -->
+
+    <!-- footer section starts  -->
+    <footer class="py-9 mt-10 container mx-auto">
+      <div class="flex pb-32 justify-evenly">
+        <div>
+          <div class="flex items-center justify-evenly py-4">
+            <p class="text-3xl">LifeCounterApp</p>
+            <span> developpé par </span>
+            <a href="" class="border-2 rounded-full">
+              <img
+                class="rounded-full h-20 w-20"
+                src="images/sample.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <p class="p-4 max-w-xl text-2xl text-gray-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            quaerat quo obcaecati excepturi, iste nisi.
+          </p>
+          <ul class="flex justify-center space-x-8 text-gray-500">
+            <li class="hover:text-primary">
+              <a href="">
+                <ion-icon class="w-10 h-10" name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li class="hover:text-primary">
+              <a href=""
+                ><ion-icon class="w-10 h-10" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div>
+            <h4 class="text-3xl">Quick Links</h4>
+          </div>
+          <ul class="text-gray-500 pt-10 text-2xl space-y-6">
+            <li class="hover:text-primary"><a href="">Home</a></li>
+            <li class="hover:text-primary"><a href="">Features</a></li>
+            <li class="hover:text-primary"><a href="">About</a></li>
+            <li class="hover:text-primary"><a href="">Testimonial</a></li>
+            <li class="hover:text-primary"><a href="">Pricing</a></li>
+            <li class="hover:text-primary"><a href="">Download</a></li>
+          </ul>
+        </div>
+        <div>
+          <div>
+            <h4 class="text-3xl">Support</h4>
+          </div>
+          <ul class="text-gray-500 pt-10 text-2xl space-y-6">
+            <li class="hover:text-primary"><a href="">FAQ</a></li>
+            <li class="hover:text-primary"><a href="">Privacy Policy</a></li>
+            <li class="hover:text-primary"><a href="">Terms OF Use</a></li>
+            <li class="hover:text-primary"><a href="">Legal</a></li>
+            <li class="hover:text-primary"><a href="">Site Map</a></li>
+          </ul>
+        </div>
+        <div class="">
+          <div>
+            <h4 class="text-3xl">Quick Links</h4>
+          </div>
+          <ul class="text-gray-500 text-2xl pt-4 space-y-2">
+            <li class="hover:text-primary">
+              <a class="flex items-center" href=""
+                ><ion-icon
+                  class="w-10 h-10 mr-4"
+                  name="mail-outline"
+                ></ion-icon>
+                uhue.contact@gmail.com
+              </a>
+            </li>
+            <li class="hover:text-primary">
+              <a class="flex items-center" href="">
+                <ion-icon
+                  class="w-10 h-10 mr-4"
+                  name="globe-outline"
+                ></ion-icon>
+                www.lifecounterapp.uhue.com
+              </a>
+            </li>
+            <li class="flex items-center">
+              <ion-icon
+                class="w-10 h-10 mr-4"
+                name="navigate-outline"
+              ></ion-icon>
+              44300 Nantes
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="text-center border-t-2 border-gray-500 pt-4 text-xl">
+        Copyright &#169; 2022 <a class="hover:text-primary" href="">Uhue</a>
+      </p>
+    </footer>
+  </body>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+</html>
