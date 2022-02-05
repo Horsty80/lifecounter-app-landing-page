@@ -116,8 +116,6 @@ header label {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: url(../images/home-bg-img.svg) no-repeat; */
-  /* background: url(../images/header-shape-2.svg) no-repeat; */
   background-size: cover;
   background-position: center;
 }
@@ -133,7 +131,7 @@ header label {
   right: 0;
   width: 50%;
   height: 100%;
-  background-image: url(/images/header-shape-1.svg);
+  background-image: url(./images/header-shape-1.svg);
   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -276,7 +274,7 @@ header label {
 
 /* end feature */
 .about {
-  background: url(/images/about-bg.svg) no-repeat;
+  background: url(./images/about-bg.svg) no-repeat;
   background-size: cover;
   background-position: center;
   padding-bottom: 3rem;
@@ -559,7 +557,6 @@ header label {
 
 .footer {
   padding-top: 3rem;
-  /* background: url(../images/footer-bg.svg) no-repeat; */
   background-size: cover;
   background-position: center;
 }
